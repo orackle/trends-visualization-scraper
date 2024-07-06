@@ -1,5 +1,3 @@
-# A previous final demo work for a project
-
 Technologies/APIs used:
 - [x] Flask
 - [x] PostgreSQL
@@ -9,15 +7,13 @@ Technologies/APIs used:
 - [x] TMDB API
 ---
 
-**Introduction**: The core objective of our study is to gain insights into the ever-changing landscape of movie trends. We want to identify and understand what makes a movie popular at any given time. To achieve this, we focus on several key aspects such as what topics are currently trending, how audiences rate these movies, and the discussions and interactions happening on platforms like TMDb and Reddit. 
+**Introduction**: The core objective of our research is to gain insights into the dynamic landscape of movie trends and identify what makes a movie popular at any given time. We focus on key aspects such as trending topics, audience ratings, and discussions on platforms like TMDb and Reddit.
 
-Our ultimate goal is to uncover the key factors that contribute to a movie's popularity. Our research findings are expected to reveal emerging patterns within the movie industry. They will also provide valuable insights into what audiences like and dislike, and how social media plays a crucial role in determining a movie's success in today's world. 
+Our goal is to uncover the factors contributing to a movie's popularity, revealing emerging patterns in the industry. Our findings will provide valuable insights into audience preferences and the crucial role of social media in determining a movie's success today.
 
-This exploration offers valuable insights for professionals in the film industry, filmmakers, and movie enthusiasts who want to better understand and navigate the ever-changing landscape of movie popularity trends. 
+This exploration offers valuable insights for film industry professionals, filmmakers, and movie enthusiasts who want to better understand and navigate the evolving trends in movie popularity.
 
-The Reddit and TMDB Data Crawler is a Python script developed for the purpose of collecting data from two prominent online platforms: Reddit and The Movie Database (TMDB). 
-
-This script serves as a tool to extract vital information related to movies and television shows, including their levels of popularity, and relevant posts and discussions on Reddit. All the collected data is then stored neatly in a PostgreSQL database for later analysis.
+The Reddit and TMDB Data Crawler is a script developed to collect data from Reddit and The Movie Database (TMDB). This tool extracts vital information related to movies and TV shows, including their popularity and relevant discussions on Reddit, storing the data in a database for later analysis.
 
 
 --- 
