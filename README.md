@@ -7,14 +7,23 @@ Technologies/APIs used:
 - [x] TMDB API
 ---
 
-**Introduction**: The core objective of our research is to gain insights into the dynamic landscape of movie trends and identify what makes a movie popular at any given time. We focus on key aspects such as trending topics, audience ratings, and discussions on platforms like TMDb and Reddit.
+**Introduction**: The core objective of this research is to gain insights into the dynamic landscape of movie trends and identify what makes a movie popular at any given time, focusing on key aspects such as trending topics, audience ratings, and discussions on platforms like TMDb and Reddit.
 
-Our goal is to uncover the factors contributing to a movie's popularity, revealing emerging patterns in the industry. Our findings will provide valuable insights into audience preferences and the crucial role of social media in determining a movie's success today.
+The goal is to uncover the factors contributing to a movie's popularity, revealing emerging patterns in the industry. These findings will provide valuable insights into audience preferences and the crucial role of media and engagement in determining a movie's success today.
 
 This exploration offers valuable insights for film industry professionals, filmmakers, and movie enthusiasts who want to better understand and navigate the evolving trends in movie popularity.
 
-The Reddit and TMDB Data Crawler is a script developed to collect data from Reddit and The Movie Database (TMDB). This tool extracts vital information related to movies and TV shows, including their popularity and relevant discussions on Reddit, storing the data in a database for later analysis.
+The Data Crawler is a script developed to collect data from Reddit and The Movie Database (TMDB). This tool extracts vital information related to movies and TV shows, including their popularity and relevant discussions on Reddit, storing the data in a database for later analysis.
 
+The Web Application is built in Flask, to serve this data to the user with data visualization principles for easy comprehension. Here are some of the results found:
+
+Popular movies by engagement: ![image](https://github.com/orackle/trends-visualization-scraper/assets/42990726/3d004fc9-b6c0-4acf-9ab8-9faaeca27491)
+
+Popular TV shows by engagement: ![image](https://github.com/orackle/trends-visualization-scraper/assets/42990726/41688889-b4be-4e98-acdf-7162c1167155)
+
+Popular movies by negative engagement: ![image](https://github.com/orackle/trends-visualization-scraper/assets/42990726/aff7dd87-82ca-4d7d-8221-f67c7ab13379)
+
+Popular TV shows by negative engagement: ![image](https://github.com/orackle/trends-visualization-scraper/assets/42990726/f36792df-f1a6-4b61-bac4-49dbc87efb76)
 
 --- 
 ### Run the Web Application to view the trends
