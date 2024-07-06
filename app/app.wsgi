@@ -2,7 +2,7 @@ import sys
 import os
 
 # Add your project directory to the sys.path
-project_home = '/home/rkale2/project3'
+project_home = '/home/user/folder'
 if project_home not in sys.path:
     sys.path = [project_home] + sys.path
 
