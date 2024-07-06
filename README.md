@@ -64,24 +64,20 @@ Run the python file directly by creating python virtual environment(myenv) or ru
 ```
 virtualenv -p python3 env
 ```
-2. Create postgres database and keep it open for connection
-```
-systemctl restart postgresql@16-main.service
-```
 
-3. Activate the virtual environment
+2. Activate the virtual environment
 
 ```
  source env/bin/activate
 ```
 
-4. Run the python script 
+3. Run the python script 
 ```
 python3 scraper.py
 ```
 
 _OPTIONAL_:   
-5. You can automate the crawler using the shell scripts we have provided in `crawler_script.sh` and `test.sh`
+5. You can automate the crawler using the shell scripts we have provided in `runner.sh` and `test.sh`
 
 ```
 bash test.sh
