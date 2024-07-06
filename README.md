@@ -17,7 +17,39 @@ The Reddit and TMDB Data Crawler is a script developed to collect data from Redd
 
 
 --- 
-### How to Run the code: 
+### Run the Web Application to view the trends
+
+1. Create Virtual Environment using virtualenv package
+```
+virtualenv -p python3 env
+```
+2. 5. Create postgres database 
+```
+systemctl restart postgresql@16-main.service
+```
+3. Install the required libraries
+```
+source env/bin/activate
+pip install flask psycopg2 pandas matplotlib seaborn
+```
+4. Locate Apache configuration file and edit it to point to the virtual environment and flask app
+```
+```
+5. Restart Apache
+```
+sudo systemctl restart apache2
+```
+6. Modify the app.wsgi field to add flask app to your PATH
+```
+project_home = '/home/user/foldername'
+```
+8. Run the Flask App
+```
+   python3 app.py
+```
+
+
+### Run the scraper: 
 
 Run the python file directly by creating python virtual environment(myenv) or run the bash script.
 
