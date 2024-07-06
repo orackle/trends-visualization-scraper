@@ -33,8 +33,6 @@ source env/bin/activate
 pip install flask psycopg2 pandas matplotlib seaborn
 ```
 4. Locate Apache configuration file and edit it to point to the virtual environment and flask app
-```
-```
 5. Restart Apache
 ```
 sudo systemctl restart apache2
