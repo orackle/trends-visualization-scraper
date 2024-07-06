@@ -42,7 +42,7 @@ systemctl restart postgresql@16-main.service
 
 4. Run the python script 
 ```
-python3 crawler.py
+python3 scraper.py
 ```
 
 _OPTIONAL_:   
